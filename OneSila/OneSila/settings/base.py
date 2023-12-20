@@ -33,22 +33,8 @@ INSTALLED_APPS = [
 ]
 
 INSTALLED_LOCAL_APPS = [
-    'contacts',
     'core',
-    'customs',
-    'currencies',
-    'eancodes',
-    'media',
     'notifications',
-    'inventory',
-    'orders',
-    'products',
-    'properties',
-    'purchasing',
-    'sales_prices',
-    'taxes',
-    'translations',
-    'units',
 ]
 
 INSTALLED_APPS += INSTALLED_LOCAL_APPS
