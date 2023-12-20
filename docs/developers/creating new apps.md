@@ -42,10 +42,10 @@ What else will the new model do?
 The new model will also come with django dirtyfields exposed by default and have it's
 save() method replaced with save(fore_save=False)
 
-This means that OneSila will only truly save if the data has changed.  Otherwise, nothing will happen unless you manually call the `save(force_save=True)`.
+This means that OnekeyrIng will only truly save if the data has changed.  Otherwise, nothing will happen unless you manually call the `save(force_save=True)`.
 
 !!! tip
-    Remember, OneSila will only save() if the data has changed.
+    Remember, OnekeyrIng will only save() if the data has changed.
     Unless specified it should trigger an empty save.
 
 ### Shared Models
@@ -88,4 +88,4 @@ Just like with the views, you can also generate the `urls.py` page.  The managem
 
 Paste this content in your `urls.py` for the new app and make changes should you need to.
 
-Next, configure your OneSila.urls to include the new app.
+Next, configure your OnekeyrIng.urls to include the new app.

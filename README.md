@@ -1,6 +1,6 @@
-[![codecov](https://codecov.io/gh/OneSila/OneSilaHeadless/graph/badge.svg?token=URYTB56K2W)](https://codecov.io/gh/OneSila/OneSilaHeadless)
+[![codecov](https://codecov.io/gh/OnekeyrIng/OnekeyrIngHeadless/graph/badge.svg?token=URYTB56K2W)](https://codecov.io/gh/OnekeyrIng/OnekeyrIngHeadless)
 
-# OneSila Headless Backend
+# OnekeyrIng Headless Backend
 
 ## Quickstart
 
@@ -16,7 +16,7 @@ pip install -r requirements.txt
 Create your local settings:
 
 ```bash
-cp OneSila/settings/local_template.py OneSila/settings/local.py
+cp OnekeyrIng/settings/local_template.py OnekeyrIng/settings/local.py
 ```
 
 And create a postgres db + set the settings in your local.py setting file.

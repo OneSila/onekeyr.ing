@@ -1,5 +1,5 @@
 """
-ASGI config for OneSila project.
+ASGI config for OnekeyrIng project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -19,7 +19,7 @@ from strawberry_django.routers import AuthGraphQLProtocolTypeRouter
 from starlette.middleware.cors import CORSMiddleware
 
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "OneSila.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "OnekeyrIng.settings")
 django_application = get_asgi_application()
 
 # Import your Strawberry schema after creating the django ASGI application

@@ -8,7 +8,7 @@ Once you have setup the backend, you can easily run the system locally for testi
 
 ```
 source venv/bin/activate
-cd OneSila
+cd OnekeyrIng
 ./manage.py runserver 127.0.0.1:8080
 ```
 

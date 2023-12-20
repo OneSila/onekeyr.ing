@@ -1,6 +1,6 @@
 # Users and Multitenancy
 
-The OneSila platform is based on a single database, single schema approach with shared models.
+The OnekeyrIng platform is based on a single database, single schema approach with shared models.
 These shared models, all have a field company called `multi_tenant_company`.
 
 This means that all data needs to be assigned to a given multi_tenant_company.  If you would skip
@@ -80,7 +80,7 @@ mutation {
 }
 ```
 
-Note that don't need to supply a password. OneSila will email the new user with an invitation link to create a password.
+Note that don't need to supply a password. OnekeyrIng will email the new user with an invitation link to create a password.
 
 ## Disabling / re-enabling users
 

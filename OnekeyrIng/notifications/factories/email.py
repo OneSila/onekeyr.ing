@@ -35,7 +35,7 @@ class SendBrandedEmail:
 
 
 class SendWelcomeEmailFactory(SendBrandedEmail):
-    subject = _("Welcome to OneSila. Let's kickstart your productivity.")
+    subject = _("Welcome to OnekeyrIng. Let's kickstart your productivity.")
     template_path = 'notifications/email/welcome.html'
 
     def set_template_variables(self):
@@ -46,7 +46,7 @@ class SendWelcomeEmailFactory(SendBrandedEmail):
 
 
 class SendUserInviteEmailFactory(SendBrandedEmail):
-    subject = _("Accept your invitation to OneSila.")
+    subject = _("Accept your invitation to OnekeyrIng.")
     template_path = 'notifications/email/invite_user.html'
 
     def set_template_variables(self):

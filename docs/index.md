@@ -12,7 +12,7 @@ pip install -r requirements.txt
 Create your local settings:
 
 ```bash
-cp OneSila/OneSila/settings/local_template.py OneSila/OneSila/settings/local.py
+cp OnekeyrIng/OnekeyrIng/settings/local_template.py OnekeyrIng/OnekeyrIng/settings/local.py
 ```
 
 And create a postgres db + set the settings in your local.py setting file.
@@ -21,7 +21,7 @@ And create a postgres db + set the settings in your local.py setting file.
 Next, migrate your db:
 
 ```python
-cd OneSila
+cd OnekeyrIng
 ./manage.py migrate
 ```
 
