@@ -35,6 +35,9 @@ INSTALLED_APPS = [
 INSTALLED_LOCAL_APPS = [
     'core',
     'notifications',
+    'ssh',
+    'keys',
+    'hosts',
 ]
 
 INSTALLED_APPS += INSTALLED_LOCAL_APPS
