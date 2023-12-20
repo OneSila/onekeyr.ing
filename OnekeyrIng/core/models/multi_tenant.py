@@ -148,6 +148,13 @@ class MultiTenantUser(AbstractUser, MultiTenantAwareMixin):
     #     ]
 
 
+class MultiTenantUserMultiAwareMixin(models.Model):
+    multi_tenant_user = models.ManyToManyField(MultiTenantUser)
+
+    class Meta:
+        abstract = True
+
+
 class MultiTenantUserLoginToken(models.Model):
     """
     A user can login with a "magic link". This is used for logging in and
